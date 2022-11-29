@@ -1,0 +1,52 @@
+.input-container{
+    margin:2px 300px;
+    justify-content:center;
+    flex-direction:column;
+    background-color:white;
+}
+
+.input-row{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+
+}
+#input-space{
+    display: flex;
+    flex:10;
+}
+#add{
+    display: flex;
+    flex:1;
+    justify-content: center;
+
+}
+.listItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:2px;
+    border:1px solid #dddbdb;
+}
+
+#item {
+    display: flex;
+    flex: 20;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: "Geeza Pro";
+}
+
+#delete {
+    display: flex;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    border:0;
+    background:transparent;
+    color:indianred;
+}
